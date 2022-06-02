@@ -1,0 +1,51 @@
+@use "../utils/mixins.scss";
+
+.functionality{
+    h2{
+        margin: 2rem 0 0rem 2rem;
+    }
+    & ol{
+        display: flex;
+        gap:1rem;
+        padding: 0.5rem 2rem 1rem 2rem;
+        @media (max-width: 850px) {
+            flex-direction: column;
+        }
+    }
+    li{
+        list-style-type: none;
+        padding: 1.5rem 0 1.5rem 1.5rem;
+        border-radius: 15px;
+        flex-grow: 1;
+        background-color: #f6f6f6;
+        @include mixins.shadow-dark;
+        position: relative;
+        font-weight: bold;
+        &:hover{
+            @include mixins.transform-effect;
+            & i.fas{
+                color: #9356dce6;
+            }
+        }
+    }
+    & i.fas{
+        margin-right: 1rem;
+        color: #7e7e7e;
+    }
+    .counters{
+        position: absolute;
+        left: -10px;
+        top: 22px;
+        font-weight: 400;
+    }
+    .border{
+        color: white;
+        background-color: #9356dc;
+        border-radius: 25px;
+        width: 1.5rem;
+        height: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

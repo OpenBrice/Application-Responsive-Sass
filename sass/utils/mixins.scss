@@ -1,0 +1,70 @@
+@mixin base-shadow {
+    box-shadow: 0 0 0.5rem rgb(0 0 0 / 25%);
+}
+
+@mixin shadow-dark{
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
+}
+@mixin fit-cover {
+    object-fit: cover;
+}
+@mixin transform-effect {
+    transform: scale(1.02);
+    transition: 200ms;
+    cursor: pointer;
+}
+@mixin padding-menu {
+    padding: 1rem 2rem 0 2rem;
+}
+
+@mixin font-menu {
+    font-weight: 400;
+    padding-bottom: 3px;  
+}
+
+@mixin element-menu {
+    content: "";
+    height: 0.25rem;
+    width: 3rem;
+    background-color: #99e2d0;
+    position: absolute;
+    z-index: 2;
+    top: 1.6rem;
+    left: 0;
+    animation: border-menu 2s;  
+}
+@mixin base-shadow {
+    box-shadow: 0 0 0.5rem rgb(0 0 0 / 25%);
+}
+
+@mixin shadow-dark{
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
+}
+@mixin fit-cover {
+    object-fit: cover;
+}
+@mixin transform-effect {
+    transform: scale(1.02);
+    transition: 200ms;
+    cursor: pointer;
+}
+@mixin padding-menu {
+    padding: 1rem 2rem 0 2rem;
+}
+
+@mixin font-menu {
+    font-weight: 400;
+    padding-bottom: 3px;  
+}
+
+@mixin element-menu {
+    content: "";
+    height: 0.25rem;
+    width: 3rem;
+    background-color: #99e2d0;
+    position: absolute;
+    z-index: 2;
+    top: 1.6rem;
+    left: 0;
+    animation: border-menu 2s;  
+}

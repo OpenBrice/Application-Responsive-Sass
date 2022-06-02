@@ -1,0 +1,19 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenBrice/Openclassroom-Projet-3.git"
+  },
+  "author": "Brice",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OpenBrice/Openclassroom-Projet-3/issues"
+  },
+  "homepage": "https://github.com/OpenBrice/Openclassroom-Projet-3#readme"
+}

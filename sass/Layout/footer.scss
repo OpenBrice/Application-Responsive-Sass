@@ -1,0 +1,37 @@
+.main-Footer{
+    background-color: #353535;
+    & h3{
+        margin: 0;
+        font-family: "Shrikhand", cursive;
+        color: white;
+    }
+}
+.footer-List{
+    color: white;
+    & i{
+        margin-right: 10px;
+    }
+}
+.a-footer{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+a:hover{
+    text-decoration: underline;
+}
+ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 2rem;
+}
+ul>li{
+    margin:0.5rem;
+}
+.footer-container{
+    padding: 1rem 0rem 0.5rem 2rem;
+}
+#CONTACT{
+    color: white;
+}

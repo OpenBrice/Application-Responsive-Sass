@@ -1,0 +1,52 @@
+@use "../utils/mixins.scss";
+@use "../utils/animations.scss";
+.Explore {
+    text-align: center;
+    background-color: #fafafa;
+    & h2{
+        margin: inherit;
+        padding-top: 2rem;
+        font-size: 1.5rem;
+    }
+    & p{
+        font-size: 1rem;
+    }
+    & button{
+        margin-top: 2rem;
+        border-radius: 2rem;
+        border: none;
+        color: white;
+        font-size: 1.1rem;
+        font-weight: 500;
+        padding: 0.7rem 2rem;
+        background: linear-gradient(#ff79d9de, #9356dce6);
+        box-shadow: 3px 5px 9px 1px #FF79DA;
+        margin-bottom: 1rem;
+        &:hover{
+            @include mixins.transform-effect;
+            opacity: 0.9;
+        }
+    }
+}
+
+
+.loader{
+    position: fixed;
+    background-color: white;
+    height: 100vh;
+    inset: 0;
+    z-index: 3;
+    opacity: 0.9;
+    animation: loader 200ms 2s;
+    animation-fill-mode: forwards;
+    transform-origin: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    i{
+        animation: lds-ring 2s;
+        color: #9356dce6 ;
+        
+    }
+
+}
