@@ -3,6 +3,9 @@
 Ohmyfood! est une jeune startup qui voudrait s'imposer sur le marché de la restauration. L'objectif est de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques.
 Vous pouvez accéder à la preview du site ici : https://openbrice.github.io/Application-Responsive-Sass/
 
+![Capture2](https://user-images.githubusercontent.com/94977490/171605690-71348aa7-5ecf-443c-90ba-a534c1a92dff.JPG)
+
+
 # Technologies
 ● Le développement est en CSS, sans JavaScript.
 ● Aucun framework n'est utilisé,utilisation de SASS
