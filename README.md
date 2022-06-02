@@ -18,6 +18,6 @@ l’approche mobile-first.
 Sur tablette et desktop, le site s’adapte, mais ces supports n’étant pas prioritaires,
 leur mise en page était libre.
 ● L’ensemble du site est responsive sur mobile, tablette et desktop.
-● Les pages devront passe la validation W3C en HTML et CSS sans erreur.
+● Les pages passent la validation W3C en HTML et CSS sans erreur.
 ● Le site est parfaitement compatible avec les dernières versions desktop de
 Chrome et Firefox.
